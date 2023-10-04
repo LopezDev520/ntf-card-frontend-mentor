@@ -1,0 +1,66 @@
+.card {
+  max-width: 300px;
+  padding: 20px;
+  background-color: hsl(216, 50%, 16%);
+  border-radius: 15px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.card img {
+  width: 300px;
+  border-radius: 5px;
+}
+
+.info-container h1 {
+  margin: 10px 0px;
+  color: white;
+  font-size: 1.7rem;
+}
+
+.info-container p {
+  margin: 15px 0px;
+  color: gray;
+  word-wrap: normal;
+}
+
+.balance-info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.balance-info div {
+  display: flex;
+  align-items: center;
+}
+
+.balance-info div:nth-child(1) p {
+  color: hsl(178, 100%, 50%);
+  font-weight: 600;
+}
+
+.balance-info div:nth-child(2) p {
+  color: gray;
+  font-weight: 400;
+}
+
+.icon img {
+  width: 12px;
+  padding: 5px;
+}
+
+.line {
+  border: 1px solid hsl(215, 32%, 27%);
+}
+
+.profile-info {
+  color: gray;
+}
+
+.name {
+  font-style: normal;
+  color: white;
+}
